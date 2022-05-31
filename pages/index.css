@@ -15,6 +15,10 @@
   background: url("../images/background_header.svg") center no-repeat #ffffff;
   /* size: cover; */
   background-size: cover;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
 }
 
 .nav {
@@ -107,20 +111,19 @@
 
   flex-wrap: wrap;
 
-  margin-left: 80px;
-
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 
+  position: absolute;
   bottom: 40px;
+  left: 80px;
 }
 
 .header__footer_hours_text {
-  margin-bottom: 0 0 0 0;
-  padding: 0 0 0 0;
+  margin: 0;
 }
 
 .menu {
